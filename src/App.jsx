@@ -1,6 +1,6 @@
 import './App.css'
-import Card from './Components/Cards/Card'
-import NavBar from './Components/NavBar/NavBar'
+import Card from './Components/Cards/Card.jsx'
+import NavBar from './Components/NavBar/NavBar.jsx'
 
 function App() {
   return (
