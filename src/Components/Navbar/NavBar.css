@@ -1,0 +1,40 @@
+
+.logo{
+    margin-right: 50px;
+    color: rgb(214, 112, 28); 
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 500px;
+    
+}
+.musculacion{
+    margin: 20px;
+    color:rgb(214, 112, 28); 
+    margin-top: 10px;
+}
+
+.cardio{
+    margin: 20px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.funcional{
+    margin: 20px;
+    margin-top: 10px;
+}
+
+.carrito{
+    margin: 45px;
+    margin-left: auto;
+}
+.barra{
+    
+    flex-direction: row;
+
+}
+
+.barra{
+    margin-top: 10px;
+    flex-direction: row;
+}

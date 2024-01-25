@@ -1,0 +1,29 @@
+.card{
+    width: 300px;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    border: 2px solid white;
+    padding: 15px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card img{
+    width: 267px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.card h1{
+font-size: 20px;
+color: white;
+}
+.card h4{
+    margin: 10px;
+    color: rgb(214, 112, 28);
+}
+
+.card h5{
+    color: rgb(136, 127, 127);
+}
