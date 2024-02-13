@@ -1,0 +1,41 @@
+.item-detail h1{
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.item-detail img{
+    width: 800px;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding-left: 80px;
+
+}
+
+.detalles{
+    /* margin-top: 20px;
+    padding-left: 1200px; */
+    padding-top: 100px;
+    display: table-column-group;
+    text-align: center;
+    font-weight: 700;
+
+
+}
+.detalles h1{
+    color:rgb(214, 112, 28); 
+    font-size: 30px;
+    
+
+}
+
+.bloque{
+    flex-direction: row;
+    display: flex;
+}
+
+.detalles button{
+    color: rgb(214, 112, 28); ;
+}

@@ -4,3 +4,7 @@
   flex-wrap: wrap;
   gap: 100px;
 }
+
+a.active{
+  color: rgb(214, 112, 28);
+}

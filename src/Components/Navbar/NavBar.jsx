@@ -3,67 +3,34 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import React from 'react'
 import "./NavBar.css";
+import CarWidget from '../CartWidget/CarWidget';
+import { Link, NavLink } from "react-router-dom";
 
 function NavBar() {
     return (
-        <>
+        <header>
             <Navbar bg="dark" data-bs-theme="dark" >
-            <Container className='barra'>
-            <Navbar.Brand href="#home" className='logo'>
-            <img
-                alt="Logotipo"
-                src="public\img\Logo.jpg"
-                width="150"
-                height="100"
-                className="d-inline-block align-top"
-            />{' '}
             
-            </Navbar.Brand>
-                <Nav>
-                    
-                <div className='musculacion'>
-                <img
-                alt="Logo-musculacion"
-                src="public\img\icono-mancuerna.ico"
-                width="80"
-                height="80"
-                
-            />{' '}
-                    <Nav.Link href="#home">MUSCULACIÓN</Nav.Link>
-                </div>
-                <div className='cardio'>
-                <img
-                alt="Logo-cardio"
-                src="public\img\icono-caminadora.ico"
-                width="80"
-                height="80"
-                
-            />{' '}
-                    <Nav.Link href="#features">CARDIO</Nav.Link>
-                </div>
-                <div className='funcional'>
-                <img
-                alt="Logo-funcional"
-                src="public\img\icono-cuerda.ico"
-                width="80"
-                height="80"
-                
-            />{' '}
-                    <Nav.Link href="#pricing">FUNCIONAL</Nav.Link>
-                </div>
-                <div className='carrito'>
-                <img
-                alt="carrito"
-                src="public\img\carrito.png"
-                width="60"
-                height="60"
-                
-            />{' '}
-                </div>
-                </Nav>
-            </Container>
+                <Link to="/" className='logo'>
+                    <img
+                    alt="Logotipo"
+                    src="/img/Logo.jpg"
+                    width="120"
+                    height="80"
+                    className="d-inline-block align-top"
+                />{' '}
+                </Link>
+
+                    <Nav className='cat'>
+                            <NavLink className="barra" to="/categoria/Musculación" >MUSCULACIÓN</NavLink>
+                            <NavLink className="barra" to="/categoria/Cardio">CARDIO</NavLink>
+                            <NavLink className="barra" to="/categoria/Funcional" >FUNCIONAL</NavLink>
+                            <NavLink className="barra" to="/Cart"> <CarWidget/> </NavLink>
+                            
+                    </Nav>
+            
             </Navbar>
-        </>
+        </header>
     )}
 
 export default NavBar;

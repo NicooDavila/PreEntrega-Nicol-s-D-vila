@@ -1,0 +1,52 @@
+
+[ 
+
+    {
+        "id": 1,
+        "name": "Titanium Strength SUPREME Leg Press / Hack Squat - KM0",
+        "stock": 10,
+        "price": 995,
+        "categoria": "Musculación",
+        "imagen": "/img/prensa.avif"
+    },
+    {
+        "id": 2,
+        "name":"Titanium Strength 150CF Evolution Banco Extensión de Cuádriceps y Femoral",
+        "stock": 20,
+        "price":595,
+        "categoria":"Musculación",
+        "imagen": "/img/extension-cuadriceps.avif"
+    },
+    {
+        "id": 3,
+        "name": "NordicTrack Bicicleta Ciclismo Indoor GX 3.9 Sport",
+        "stock": 15,
+        "price": 319,
+        "categoria": "Cardio",
+        "imagen": "/img/bici.webp"
+    },
+    {
+        "id": 4,
+        "name": "Horizon T-R01 Cinta de Correr",
+        "stock": 5,
+        "price": 399,
+        "categoria": "Cardio",
+        "imagen": "/img/caminadora.avif"
+    },
+    {
+        "id": 5,
+        "name": "Xebex Rower Air Power 2.0",
+        "stock": 10,
+        "price": 1079,
+        "categoria": "Funcional",
+        "imagen": "/img/remo.avif"
+    },
+    {
+        "id": 6,
+        "name": "Airdyne Schwinn AD8 AirBike PRO",
+        "stock": 12,
+        "price": 1299,
+        "categoria": "Funcional",
+        "imagen": "/img/bici-funcional.avif"
+    }
+]
