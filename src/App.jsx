@@ -16,7 +16,7 @@ function App() {
 
         <NavBar/>
 
-        <Carousel/>
+
 
           <Routes>
             <Route path="/" element={<ItemListContainer/>}  />
