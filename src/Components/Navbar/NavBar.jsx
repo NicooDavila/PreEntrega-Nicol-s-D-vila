@@ -25,7 +25,7 @@ function NavBar() {
                             <NavLink className="barra" to="/categoria/Musculación" >MUSCULACIÓN</NavLink>
                             <NavLink className="barra" to="/categoria/Cardio">CARDIO</NavLink>
                             <NavLink className="barra" to="/categoria/Funcional" >FUNCIONAL</NavLink>
-                            <NavLink className="barra" to="/Cart"> <CarWidget/> </NavLink>
+                            <NavLink className="barra" to="/carrito"> <CarWidget/> </NavLink>
                             
                     </Nav>
             

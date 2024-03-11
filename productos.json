@@ -7,7 +7,8 @@
         "stock": 10,
         "price": 995,
         "categoria": "Musculación",
-        "imagen": "/img/prensa.avif"
+        "imagen": "/img/prensa.avif",
+        "descripcion":"La Titanium Strength Supreme combina tres unidades esenciales en una: Leg Press, Hack Squat y Calf Raise, para que puedas desarrollar una fuerza explosiva en la parte inferior del cuerpo y construir unas piernas fuertes."
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "stock": 20,
         "price":595,
         "categoria":"Musculación",
-        "imagen": "/img/extension-cuadriceps.avif"
+        "imagen": "/img/extension-cuadriceps.avif",
+        "descripcion":"Tanto la extensión de cuádriceps como femoral, son ejercicios ideales de alta prioridad en aquellas personas que suelen entrenar musculación y tienen un día específico en su rutina de entrenamiento para sus piernas. Ambos ejercicios sirven para definir la parte delantera y trasera de la pierna y con ellos es posible fortalecer: rodillas, isquiotibiales, cuádriceps y glúteos. Además, para aquellas personas que necesitan hacer rehabilitación por alguna lesión, este banco es ideal, ya que permite elegir la postura más beneficiosa a la hora de realizar el movimiento. Todo el mundo que entrena musculación lo sabe: ¡son los ejercicios de piernas por excelencia! Por eso es tan importante incluir un banco como este en tu Home Gym. Con el banco leg curl/extension de Titanium Strength tendrás comodidad y estabilidad en una máquina sólida y resistente, apto para todas las estaturas. No lo dudes y entrena en tu casa como si estuvieras en un gimnasio profesional."
     },
     {
         "id": 3,
@@ -23,7 +25,8 @@
         "stock": 15,
         "price": 319,
         "categoria": "Cardio",
-        "imagen": "/img/bici.webp"
+        "imagen": "/img/bici.webp",
+        "descripcion":"La nueva bicicleta Nodictrack GX 3.9 Sport, es la herramienta perfecta para mejorar de forma rápida su condición física, potenciar su sistema cardiovascular y tonificar su  musculatura. le permite comenzar con facilidad su entrenamiento y aumentar progresivamente la intensidad"
     },
     {
         "id": 4,
@@ -31,7 +34,8 @@
         "stock": 5,
         "price": 399,
         "categoria": "Cardio",
-        "imagen": "/img/caminadora.avif"
+        "imagen": "/img/caminadora.avif",
+        "descripcion":"Te presentamos la nueva Cinta Horizon T-R01, una cinta de uso doméstico, plegable e intuitiva a su consola retroalimentada. Disfruta en casa, anda, trota o corre gracias a un gran motor de 1.5 HP. Y si todo esto te parece poco, rematamos con un precio impresionante."
     },
     {
         "id": 5,
@@ -39,7 +43,8 @@
         "stock": 10,
         "price": 1079,
         "categoria": "Funcional",
-        "imagen": "/img/remo.avif"
+        "imagen": "/img/remo.avif",
+        "descripcion":"Esta nueva máquina que tenemos el honor de ofrecer es de las mejores opciones en lo que respecta a remos. Concebido para un uso profesional en gimnasio y centros deportivos, pero también para deportistas ambiciosos que aspiren al top. Con su nuevo diseño funcional perfecto y su excelente eficacía, conseguirás todo lo que te propongas. Gracias a su nueva resistencia de aire, al incrementar el ritmo de la remada, aumentará la resistencia para poder conseguir unos resultados increíbles."
     },
     {
         "id": 6,
@@ -47,6 +52,7 @@
         "stock": 12,
         "price": 1299,
         "categoria": "Funcional",
-        "imagen": "/img/bici-funcional.avif"
+        "imagen": "/img/bici-funcional.avif",
+        "descripcion":"El modelo A.C. Performance Plus es el buque insignia de la línea de ciclismo indoor de Schwinn. Nuestro innovador sistema utiliza imanes y un disco de aluminio para generar resistencia, sin nada que entre en contacto con la rueda, lo que ofrece varias ventajas · · En nuestro sistema, la resistencia cambia de modo progresivo y lógico, un pequeño giro no significa pasar de un nivel fácil a uno difícil, y el ajuste es constante de una bicicleta a otra."
     }
 ]

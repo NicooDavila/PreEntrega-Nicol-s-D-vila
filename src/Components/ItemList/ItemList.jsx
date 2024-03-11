@@ -2,15 +2,17 @@ import React from 'react'
 import Item from "../Item/Item";
 import { Link } from 'react-router-dom';
 
-export default function ItemList({productos}) {
-  console.log(productos)
+const ItemList = ( {productos} ) => {
+
   return (
-    <div>
-        {productos.map(producto =>(
-          <Link to= {`/item/${producto.id}`}>
-            <Item producto={producto} key={producto.id} />
-          </Link>
-        ))}
+    <div className="container">
+        
+
+        <div className="productos">
+            { productos.map((prod) => <Item producto={prod} key={prod.id} />) }
+        </div>
     </div>
   )
 }
+
+export default ItemList

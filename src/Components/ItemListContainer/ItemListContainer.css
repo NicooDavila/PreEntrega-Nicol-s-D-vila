@@ -1,4 +1,7 @@
-.itemList{
-align-items: center;
 
+.bienvenida{
+    text-align: center;
+    padding: 7px;
+    background-color: gray;
+    color:rgb(214, 112, 28); 
 }

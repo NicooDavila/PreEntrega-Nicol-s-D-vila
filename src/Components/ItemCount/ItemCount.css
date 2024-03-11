@@ -1,8 +1,21 @@
-.counter{
+.item-count{
     width: fit-content;
     
-    color: rgb(214, 112, 28); ;
+    color: rgb(214, 112, 28); 
     margin: auto;
     padding: 16px;
     text-align: center;
+}
+
+.agregar-al-carrito{
+    color: rgb(214, 112, 28); 
+    
+}
+
+.suma-resta{
+    color: rgb(214, 112, 28); 
+    margin: 2px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
 }
