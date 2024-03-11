@@ -1,0 +1,23 @@
+.container-formu{
+    background-color: #eee;
+    color: rgb(214, 112, 28); 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-inline: 600px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.enviar{
+    color: rgb(214, 112, 28);
+}
+
+.main-title{
+    
+    text-align: center;
+}

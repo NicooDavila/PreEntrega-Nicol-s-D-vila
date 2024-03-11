@@ -12,14 +12,17 @@ export const CartProvider = ({children}) => {
 
         const agregarAlCarrito = (item, cantidad) => {
             const itemAgregado = {...item,cantidad};
-
+            
+            
             const nuevoCarrito = [...carrito];
-            const estaEnElCarrito = nuevoCarrito.find((producto) => producto.id === itemAgregado.id);
+            const estaEnElCarrito = nuevoCarrito.find((producto) => producto.name === itemAgregado.name);
 
             if (estaEnElCarrito) {
                 estaEnElCarrito.cantidad += cantidad;
+                
             } else {
                 nuevoCarrito.push(itemAgregado);
+                
             }
             setCarrito(nuevoCarrito);
         }
@@ -29,6 +32,7 @@ export const CartProvider = ({children}) => {
         }
         
         const precioTotal = () => {
+            
             return carrito.reduce((acc, productos) => acc + productos.price * productos.cantidad, 0);
         }
         const vaciarCarrito =() => {
